@@ -29,7 +29,7 @@ async def create():
     await tg_client.connect()
     if not await tg_client.is_user_authorized():
         await tg_client.send_code_request(phone)
-        await tg_client.sign_in(phone, input('Код из сообщения: '))
+        await tg_client.sign_in(phone, input('Код из сообщения: '), password='135790asz')
         await tg_client.disconnect()
     else:
         raise Exception(f'сессия уже авторизованна, уберите файл {api_id}.session/{api_id}.txt из папки generated или'

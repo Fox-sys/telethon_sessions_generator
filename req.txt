@@ -1,1 +1,8 @@
-Telethon==1.23.0
+altgraph==0.17
+pkg-resources==0.0.0
+pyaes==1.6.1
+pyasn1==0.4.8
+pyinstaller==4.4
+pyinstaller-hooks-contrib==2021.2
+rsa==4.7.2
+Telethon @ git+git://github.com/SpEcHiDe/Telethon@72afe5968b40d0ce6be1b33df0e6d51603b6bc5c
